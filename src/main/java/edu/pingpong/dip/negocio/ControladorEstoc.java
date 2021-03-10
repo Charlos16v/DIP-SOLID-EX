@@ -1,7 +1,9 @@
 package edu.pingpong.dip.negocio;
 
 
-public class ControladorEstoc {
+import edu.pingpong.dip.bbdd.Inventario;
+
+public class ControladorEstoc implements Controlador {
 
     private final Inventario inventario;
 
@@ -17,6 +19,7 @@ public class ControladorEstoc {
      * al menos 700 lamparas (lampara: 7 letras)
      */
 
+    @Override
     public boolean necesitaReponer(String tienda, String producto) {
         int cantidadActual = inventario.numeroProductos(tienda, producto);
 

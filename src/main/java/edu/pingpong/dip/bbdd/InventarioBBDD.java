@@ -1,8 +1,6 @@
 package edu.pingpong.dip.bbdd;
 
 
-import edu.pingpong.dip.negocio.Inventario;
-
 public class InventarioBBDD implements Inventario {
 
 

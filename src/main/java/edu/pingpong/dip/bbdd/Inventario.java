@@ -1,4 +1,4 @@
-package edu.pingpong.dip.negocio;
+package edu.pingpong.dip.bbdd;
 
 
 public interface Inventario {
